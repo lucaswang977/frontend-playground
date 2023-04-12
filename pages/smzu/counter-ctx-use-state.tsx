@@ -42,4 +42,14 @@ const CounterState = () => {
     </CounterContextProvider>)
 }
 
-export default CounterState
+const CounterStatePage = () => {
+  return (
+    <div>
+      <CounterState />
+      <CounterState />
+      <CounterState />
+    </div>
+  )
+}
+
+export default CounterStatePage
