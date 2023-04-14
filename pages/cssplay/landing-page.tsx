@@ -731,7 +731,9 @@ const LandingPage = () => {
         <div className="container">
           <div className="nav-wrapper">
             <a href="#">
-              <Image alt="" className="footer-logo" src="/logo.svg" />
+              <svg className="footer-logo">
+                <use xlinkHref="/cssplay-landing-page/logo.svg#logo"></use>
+              </svg>
             </a>
             <button
               className="mobile-nav-toggle"
@@ -773,7 +775,7 @@ const LandingPage = () => {
               <div className="hero__image">
                 <img
                   className="mx-auto"
-                  src="images/illustration-intro.svg"
+                  src="/cssplay-landing-page/illustration-intro.svg"
                   alt="Hero image"
                 />
               </div>
@@ -786,7 +788,6 @@ const LandingPage = () => {
             <div className="even-columns">
               <div
                 className="flow text-center-sm-only margin-bottom-700"
-                style="--flow-spacer: 1.5em"
               >
                 <h2 className="fs-secondary-heading fw-bold">
                   What’s different about Manage?
@@ -800,7 +801,7 @@ const LandingPage = () => {
               <div>
                 <ul role="list" className="numbered-items | flow">
                   <li>
-                    <div className="flow" style="--flow-spacer: 1em">
+                    <div className="flow">
                       <h3 className="numbered-items__title | fs-600 fw-bold">
                         Track company-wide progress
                       </h3>
@@ -813,7 +814,7 @@ const LandingPage = () => {
                     </div>
                   </li>
                   <li>
-                    <div className="flow" style="--flow-spacer: 1em">
+                    <div className="flow">
                       <h3 className="numbered-items__title | fs-600 fw-bold">
                         Advanced built-in reports
                       </h3>
@@ -826,7 +827,7 @@ const LandingPage = () => {
                     </div>
                   </li>
                   <li>
-                    <div className="flow" style="--flow-spacer: 1em">
+                    <div className="flow">
                       <h3 className="numbered-items__title | fs-600 fw-bold">
                         Everything you need in one place
                       </h3>
@@ -848,7 +849,7 @@ const LandingPage = () => {
           <ul className="slider">
             <li>
               <img className="avatar" src="https://i.pravatar.cc/150?img=5" alt="" />
-              <div className="slider-content | flow" style="--flow-spacer: 1em">
+              <div className="slider-content | flow">
                 <h3 className="fw-bold">Anisha Li</h3>
                 <p>
                   “Manage has supercharged our team’s workflow. The ability to
@@ -859,7 +860,7 @@ const LandingPage = () => {
             </li>
             <li>
               <img className="avatar" src="https://i.pravatar.cc/150?img=6" alt="" />
-              <div className="slider-content | flow" style="--flow-spacer: 1em">
+              <div className="slider-content | flow">
                 <h3 className="fw-bold">Ali Bravo</h3>
                 <p data-width="wide">
                   “We have been able to cancel so many other subscriptions since
@@ -870,7 +871,7 @@ const LandingPage = () => {
             </li>
             <li>
               <img className="avatar" src="https://i.pravatar.cc/150?img=7" alt="" />
-              <div className="slider-content | flow" style="--flow-spacer: 1em">
+              <div className="slider-content | flow">
                 <h3 className="fw-bold">Richard Watts</h3>
                 <p data-width="wide">
                   “Manage allows us to provide structure and process. It keeps us
@@ -881,7 +882,7 @@ const LandingPage = () => {
             </li>
             <li>
               <img className="avatar" src="https://i.pravatar.cc/150?img=8" alt="" />
-              <div className="slider-content | flow" style="--flow-spacer: 1em">
+              <div className="slider-content | flow">
                 <h3 className="fw-bold">Shanai Gough</h3>
                 <p data-width="wide">
                   “Their software allows us to track, manage and collaborate on
@@ -918,7 +919,7 @@ const LandingPage = () => {
             <div className="primary-footer-logo">
               <a href="#" aria-label="Home">
                 <svg className="footer-logo">
-                  <use xlink:href="images/logo.svg#logo"></use>
+                  <use xlinkHref="/cssplay-landing-page/logo.svg#logo"></use>
                 </svg>
               </a>
             </div>
@@ -926,9 +927,9 @@ const LandingPage = () => {
               <ul className="social-list" role="list" aria-label="Social Links">
                 <li>
                   <a aria-label="facebook" href="#">
-                    <svg className="social-icon" aria-label="Home">
+                    <svg className="social-icon">
                       <use
-                        xlink:href="images/social-icons.svg#icon-facebook"
+                        xlinkHref="/cssplay-landing-page/social-icons.svg#icon-facebook"
                       ></use>
                     </svg>
                   </a>
@@ -937,7 +938,7 @@ const LandingPage = () => {
                   <a aria-label="youtube" href="#">
                     <svg className="social-icon">
                       <use
-                        xlink:href="images/social-icons.svg#icon-youtube"
+                        xlinkHref="/cssplay-landing-page/social-icons.svg#icon-youtube"
                       ></use>
                     </svg>
                   </a>
@@ -946,7 +947,7 @@ const LandingPage = () => {
                   <a aria-label="twitter" href="#">
                     <svg className="social-icon">
                       <use
-                        xlink:href="images/social-icons.svg#icon-twitter"
+                        xlinkHref="/cssplay-landing-page/social-icons.svg#icon-twitter"
                       ></use>
                     </svg>
                   </a>
@@ -955,7 +956,7 @@ const LandingPage = () => {
                   <a aria-label="pinterest" href="#">
                     <svg className="social-icon">
                       <use
-                        xlink:href="images/social-icons.svg#icon-pinterest"
+                        xlinkHref="/cssplay-landing-page/social-icons.svg#icon-pinterest"
                       ></use>
                     </svg>
                   </a>
@@ -964,7 +965,7 @@ const LandingPage = () => {
                   <a aria-label="instagram" href="#">
                     <svg className="social-icon">
                       <use
-                        xlink:href="images/social-icons.svg#icon-instagram"
+                        xlinkHref="/cssplay-landing-page/social-icons.svg#icon-instagram"
                       ></use>
                     </svg>
                   </a>
@@ -975,7 +976,6 @@ const LandingPage = () => {
               <nav className="footer-nav">
                 <ul
                   className="flow"
-                  style="--flow-spacer: 1em"
                   aria-label="Footer"
                   role="list"
                 >

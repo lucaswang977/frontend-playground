@@ -19,14 +19,14 @@ const caseData: CaseType[] = [
     id: 2,
     image:
       '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="visual" viewBox="0 0 900 600" width="900" height="600" version="1.1"><rect width="900" height="600" fill="#001829"/><g><g transform="translate(791 552)"><path d="M0 -147L127.3 -73.5L127.3 73.5L0 147L-127.3 73.5L-127.3 -73.5Z" fill="#FCAF3C"/></g><g transform="translate(387 515)"><path d="M0 -140L121.2 -70L121.2 70L0 140L-121.2 70L-121.2 -70Z" fill="#FCAF3C"/></g></g></svg>',
-    href: "cssplay/landingpage",
+    href: "cssplay/landing-page",
     name: "Responsive Landing Page",
   },
   {
     id: 3,
     image:
       '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="visual" viewBox="0 0 900 600" width="900" height="600" version="1.1"><rect width="900" height="600" fill="#001829"/><g><g transform="translate(611 499)"><path d="M0 -147L127.3 -73.5L127.3 73.5L0 147L-127.3 73.5L-127.3 -73.5Z" fill="#FCAF3C"/></g><g transform="translate(655 80)"><path d="M0 -119L103.1 -59.5L103.1 59.5L0 119L-103.1 59.5L-103.1 -59.5Z" fill="#FCAF3C"/></g><g transform="translate(5 346)"><path d="M0 -99L85.7 -49.5L85.7 49.5L0 99L-85.7 49.5L-85.7 -49.5Z" fill="#FCAF3C"/></g></g></svg>',
-    href: "cssplay/productcard",
+    href: "cssplay/product-card",
     name: "Responsive Product Card",
   },
 ];
